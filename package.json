@@ -1,0 +1,16 @@
+{
+  "name": "ajax-env",
+  "version": "1.0.0",
+  "description": "A starter environment for all Automattic Ajax projects",
+  "main": "index.js",
+  "scripts": {
+    "preenv:*": "nvm install lts/* && nvm use",
+    "env:start": "npx wp-env start",
+    "env:stop": "npx wp-env stop"
+  },
+  "author": "Dave Smith <dave.smith@automattic.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@wordpress/env": "^1.0.1"
+  }
+}

@@ -1,0 +1,17 @@
+{
+    "core": "WordPress/WordPress#master",
+    "plugins": [
+        "~/Sites/wp-calypso/apps/full-site-editing/full-site-editing-plugin",
+        "~/Sites/gutenberg",
+        "~/Sites/jetpack"
+    ],
+    "themes": [
+        "~/Sites/themes/varia",
+        "~/Sites/themes/maywood"
+    ],
+    "port": 4759,
+    "testsPort": 4760,
+    "config": {
+        "WP_DEBUG_DISPLAY": true
+    }
+}
