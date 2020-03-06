@@ -46,6 +46,8 @@ for this are varied but may include:
 
 The easiest way to do this is by adding a `.wp-env.override.json` file, a placeholder for which is made available in this repo.
 
+[Full documentation for the configuration file](https://developer.wordpress.org/block-editor/packages/packages-env/#wp-env-json) and its syntax is available.
+
 ### Create your overrides file
 
 Copy `.wp-env.override.sample.json` file and rename it to `.wp-env.override.json`.
