@@ -2,9 +2,21 @@
 
 _The_ official WP environment for Automattic/Ajax projects. Powered by `@wordpress/env`.
 
+## What's in the box?
+
+With a simple command you will provision a WordPress environment containing:
+
+* Latest version of WordPress from Github `master`.
+* Copies of _local installations_ (requires manual install) of:
+  - Gutenberg
+  - Full Site Editing (via Calypso repo)
+  - Jetpack
+  - Maywood and Varia "template first" Themes (via Automattic Themes)
+
 ## Prerequisites
 
 * `nvm` to manage your Node versions.
+* Local installations of the projects listed below.
 
 ## Quick Start
 
