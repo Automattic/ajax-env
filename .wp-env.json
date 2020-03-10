@@ -12,6 +12,10 @@
     "port": 4759,
     "testsPort": 4760,
     "config": {
-        "WP_DEBUG_DISPLAY": true
+        "WP_DEBUG_DISPLAY": true,
+        "SCRIPT_DEBUG": true,
+        "GUTENBERG_DEVELOPMENT_MODE": true,
+        "JETPACK_DEV_DEBUG": true,
+        "JETPACK_BETA_BLOCKS": true
     }
 }
