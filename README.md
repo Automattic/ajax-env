@@ -39,10 +39,11 @@ Once the above repositories are available locally it's time to provision your en
 
 4. Install project dependencies - run `npm install`.
 
-5. Provision environment - run `npx run env:start`.
+5. Provision environment - run `npm run env:start`.
 
 Your WordPress environment will be provisioned and available at: [http://localhost:4759](http://localhost:4759/).
 
+6. To stop environment - run `npm run env:stop`.
 
 ## Customizing the Environment
 
