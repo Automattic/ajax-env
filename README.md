@@ -17,6 +17,7 @@ With a simple command you will provision a WordPress environment containing:
 
 * `nvm` or `n` to manage your Node versions.
 * Local installations of the projects listed below.
+* `@wordpress/env` requires Docker to be installed and running. There are instructions available for installing Docker on [Windows 10 Pro](https://docs.docker.com/docker-for-windows/install/), [all other versions of Windows](https://docs.docker.com/toolbox/toolbox_install_windows/), [macOS](https://docs.docker.com/docker-for-mac/install/), and [Linux](https://docs.docker.com/v17.12/install/linux/docker-ce/ubuntu/#install-using-the-convenience-script).
 
 ## Quick Start
 
