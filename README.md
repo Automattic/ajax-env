@@ -15,7 +15,7 @@ With a simple command you will provision a WordPress environment containing:
 
 ## Prerequisites
 
-* `nvm` to manage your Node versions.
+* `nvm` or `n` to manage your Node versions.
 * Local installations of the projects listed below.
 
 ## Quick Start
@@ -35,7 +35,7 @@ Once the above repositories are available locally it's time to provision your en
 
 2. `cd` into the cloned directory.
 
-3. Switch to a valid Node version - run `nvm use`. Check you are on the correct Node version.
+3. Switch to a valid Node version - run `nvm use` or `n lts`. Check you are on the correct Node version.
 
 4. Install project dependencies - run `npm install`.
 
