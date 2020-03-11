@@ -1,11 +1,11 @@
 {
     "plugins": [
-        "{{LOCAL_PATH_TO_https://github.com/Automattic/wp-calypso}}/wp-calypso/apps/full-site-editing/full-site-editing-plugin",
-        "{{LOCAL_PATH_TO_https://github.com/WordPress/gutenberg/}}gutenberg",
-        "{{LOCAL_PATH_TO_https://github.com/Automattic/jetpack/}}/jetpack"
+        "{{LOCAL_PATH_TO_REPO}}/wp-calypso/apps/full-site-editing/full-site-editing-plugin",
+        "{{LOCAL_PATH_TO_REPO}}/gutenberg",
+        "{{LOCAL_PATH_TO_REPO}}/jetpack"
     ],
     "themes": [
-        "{{LOCAL_PATH_TO_https://github.com/automattic/themes}}/varia",
-        "{{LOCAL_PATH_TO_https://github.com/automattic/themes}}/maywood"
+        "{{LOCAL_PATH_TO_REPO}}/themes/varia",
+        "{{LOCAL_PATH_TO_REPO}}/themes/maywood"
     ]
 }
