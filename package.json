@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "preenv:*": "nvm install lts/* && nvm use",
-    "env:start": "npx wp-env start",
+    "env:start": "npx wp-env start && npx open http://localhost:4759/wp-admin/",
     "env:stop": "npx wp-env stop"
   },
   "author": "Dave Smith <dave.smith@automattic.com>",
