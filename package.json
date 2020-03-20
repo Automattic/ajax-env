@@ -9,8 +9,9 @@
     "url": "https://github.com/Automattic/ajax-env.git"
   },
   "scripts": {
-    "start": "npx wp-env start && npx open http://localhost:4759/wp-admin/",
-    "stop": "npx wp-env stop"
+    "start": "npx wp-env start && npm run open",
+    "stop": "npx wp-env stop",
+    "open": "node ./bin/open.js"
   },
   "dependencies": {
     "@wordpress/env": "^1.0.1"
