@@ -12,6 +12,7 @@
     "port": 4759,
     "testsPort": 4760,
     "config": {
+        "WP_DEBUG": true,
         "WP_DEBUG_DISPLAY": true,
         "SCRIPT_DEBUG": true,
         "GUTENBERG_DEVELOPMENT_MODE": true,
